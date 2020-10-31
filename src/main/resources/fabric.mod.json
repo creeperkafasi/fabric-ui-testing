@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "creeperUITest",
+    "version": "${version}",
+
+    "name": "creeperkafasi ui testing mod",
+    "description": "Steal whatever the f**k you want from here",
+    "authors": [
+        "creeperkafasipw"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+
+    "license": "CC0-1.0",
+    "icon": "assets/modid/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.creeperkafasipw.uitest.Main"
+        ]
+    },
+    "mixins": [
+        "modid.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.7.4",
+        "fabric": "*",
+        "minecraft": "1.16.x"
+    },
+    "suggests": {
+        "flamingo": "*"
+    }
+}
